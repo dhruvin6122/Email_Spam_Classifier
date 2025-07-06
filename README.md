@@ -1,18 +1,21 @@
-# 📧 Email Spam Classifier with Flask 🧠
+# 📬 Email Spam Classifier – Detect Spam Instantly with ML 🔍
 
-A simple machine learning web app that detects whether an input email is **Spam** or **Not Spam** using a Naive Bayes classifier trained on textual data.
+A lightweight and intelligent web app built with **Flask** and **Machine Learning** to classify emails as **Spam ❌** or **Not Spam ✅** — all in real time.
+
+---
+
+## 🚀 Key Highlights
+
+- 🎯 **Instant Spam Detection** through a simple, clean UI
+- ⚙️ **Text Preprocessing**: Lowercasing, Stopword Removal, Stemming
+- 🧠 **ML Model**: TF-IDF + Multinomial Naive Bayes
+- 📊 **High Accuracy**: 99%+ on validation data
+- 🌐 **Built with Flask** for a fast, responsive interface
+- 🧰 Fully self-contained — no external APIs required
 
 ---
 
-## 📌 Features
 
-- ✅ Clean web interface using Flask
-- ✅ Real-time email prediction (Spam/Not Spam)
-- ✅ Text preprocessing with stopword removal + stemming
-- ✅ TF-IDF + Multinomial Naive Bayes model
-- ✅ Trained on labeled dataset with 95%+ accuracy
-
----
 
 ## 🚀 Demo
 
@@ -32,9 +35,11 @@ _Paste email text and click **Predict** to see results._
 
 ---
 
-## 🛠️ How to Run Locally
+## 🙏 Acknowledgments
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/yourusername/email-spam-classifier.git
-cd email-spam-classifier
+This project is inspired by the teachings of **Nitish Kumar Sir** from [CampusX](https://www.youtube.com/c/CampusXOfficial).  
+Special thanks to him for making complex ML concepts simple and accessible for everyone.
+
+Check out his YouTube channel: [CampusX YouTube](https://www.youtube.com/c/CampusXOfficial)
+
+
