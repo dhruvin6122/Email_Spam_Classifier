@@ -27,12 +27,10 @@ _Paste email text and click **Predict** to see results._
 ## 🖼️ Screenshots
 
 ### 🔴 Spam Email
-![Spam Result](https://raw.githubusercontent.com/dhruvin6122/EmailSpamClassifier/main/static/Spam.png)
-
+![Spam Result](https://github.com/dhruvin6122/Email_Spam_Classifier/raw/main/EmailSpamClassifier/static/Spam.png)
 
 ### ✅ Not Spam Email
-![Spam Result](https://raw.githubusercontent.com/dhruvin612/EmailSpamClassifier/main/static/Ham.png)
-
+![Not Spam Result](https://github.com/dhruvin6122/Email_Spam_Classifier/raw/main/EmailSpamClassifier/static/Ham.png)
 
 ---
 
