@@ -27,7 +27,7 @@ _Paste email text and click **Predict** to see results._
 ## 🖼️ Screenshots
 
 ### 🔴 Spam Email
-![Spam Result](static/spam.png)
+![Spam Result](static/Spam.png)
 
 ### ✅ Not Spam Email
 ![Not Spam Result](static/Ham.png)
