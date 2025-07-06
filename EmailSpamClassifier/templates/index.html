@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Spam Classifier</title>
+    <style>
+        body {
+            background: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 50px;
+        }
+
+        .result {
+            margin-bottom: 50px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .spam {
+            background-color: #ffebeb;
+            color: #e74c3c;
+            border: 2px solid #e74c3c;
+        }
+
+        .not-spam {
+            background-color: #e8f9e9;
+            color: #27ae60;
+            border: 2px solid #27ae60;
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        label {
+            font-size: 1.2rem;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #34495e;
+        }
+
+        textarea {
+            width: 95%;
+            padding: 15px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            resize: vertical;
+          
+        }
+
+        input[type="submit"] {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Email Spam Classifier</h1>
+
+    {% if label is not none %}
+        {% if label == 1 %}
+            <div class="result spam">Spam ❌</div>
+        {% else %}
+            <div class="result not-spam">Not Spam ✅</div>
+        {% endif %}
+    {% endif %}
+
+    <form action="/predict" method="post">
+        <label for="email">Enter Email</label>
+        <textarea rows="15" name="email" id="email" placeholder="Paste your email text here...">{{ email_text }}</textarea>
+
+        <input type="submit" value="Predict">
+    </form>
+
+</body>
+</html>
