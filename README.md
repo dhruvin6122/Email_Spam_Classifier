@@ -17,13 +17,6 @@ A lightweight and intelligent web app built with **Flask** and **Machine Learnin
 
 
 
-## 🚀 Demo
-
-https://localhost:5000  
-_Paste email text and click **Predict** to see results._
-
----
-
 ## 🖼️ Screenshots
 
 ### 🔴 Spam Email
@@ -41,4 +34,18 @@ Special thanks to him for making complex ML concepts simple and accessible for e
 
 Check out his YouTube channel: [CampusX YouTube](https://www.youtube.com/c/CampusXOfficial)
 
+## 📄 License
 
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Feel free to use, modify, and distribute with credit.
+
+---
+
+## 🙋‍♂️ Author
+
+**Dhruvin Patel**  
+🎓 B.Tech – Computer Science  
+📍 Gujarat, India  
+📧 Email: pateldhruvin6122@gmail.com  
+🔗 GitHub: [@dhruvin6122](https://github.com/dhruvin6122)  
+💼 LinkedIn: [View Profile](https://www.linkedin.com/in/patel-dhruvin-70b602280)
